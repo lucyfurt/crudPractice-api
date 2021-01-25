@@ -1,10 +1,9 @@
 {
-  "name": "Crud Practice",
+  "name": "crudPractice-api",
   "version": "1.0.0",
   "description": "pRACTICING CRUD",
   "main": "server.js",
   "scripts": {
-   
     "start": "nodemon server.js"
   },
   "keywords": [],
@@ -18,7 +17,10 @@
     "helmet": "^4.4.1",
     "knex": "^0.21.16",
     "morgan": "^1.10.0",
-    "pg": "^8.5.1"
+    "pg": "^8.5.1",
+    "postgresql": "0.0.1",
+    "services": "0.0.3",
+    "start": "^5.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
